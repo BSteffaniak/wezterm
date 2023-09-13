@@ -25,5 +25,7 @@ config.window_padding = {
   bottom = 0,
 }
 
+config.hide_mouse_cursor_when_typing = false
+
 -- and finally, return the configuration to wezterm
 return config
