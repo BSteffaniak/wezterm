@@ -25,6 +25,14 @@ config.window_padding = {
   bottom = 0,
 }
 
+config.keys = {
+  { key = "/",     mods = "CTRL",       action = wezterm.action.SendString("\x1f") },
+  { key = "Enter", mods = "CTRL",       action = wezterm.action.SendString("\x1b[13;5u") },
+  { key = "Enter", mods = "SHIFT",      action = wezterm.action.SendString("\x1b[13;2u") },
+  { key = "Tab",   mods = "SHIFT",      action = wezterm.action.SendString("\x1b[9;5u") },
+  { key = "Tab",   mods = "SHIFT|CTRL", action = wezterm.action.SendString("\x1b[9;6u") },
+}
+
 config.hide_mouse_cursor_when_typing = false
 
 -- and finally, return the configuration to wezterm
