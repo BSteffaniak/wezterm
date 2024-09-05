@@ -35,5 +35,7 @@ config.keys = {
 
 config.hide_mouse_cursor_when_typing = false
 
+config.window_background_opacity = 0.9
+
 -- and finally, return the configuration to wezterm
 return config
