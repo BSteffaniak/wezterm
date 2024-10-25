@@ -26,6 +26,7 @@ config.window_padding = {
 }
 
 config.hide_mouse_cursor_when_typing = false
+config.warn_about_missing_glyphs = false
 
 config.window_background_opacity = 0.9
 
