@@ -29,6 +29,8 @@ config.hide_mouse_cursor_when_typing = false
 config.warn_about_missing_glyphs = false
 
 config.window_background_opacity = 0.9
+config.unicode_version = 14
+config.allow_square_glyphs_to_overflow_width = "Never"
 
 -- and finally, return the configuration to wezterm
 return config
