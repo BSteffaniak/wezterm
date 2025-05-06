@@ -32,5 +32,7 @@ config.window_background_opacity = 0.9
 config.unicode_version = 14
 config.allow_square_glyphs_to_overflow_width = "Never"
 
+config.check_for_updates = false
+
 -- and finally, return the configuration to wezterm
 return config
